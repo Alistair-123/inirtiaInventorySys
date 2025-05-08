@@ -150,13 +150,13 @@ const showingNavigationDropdown = ref(false);
                             :href="route('products.index')"
                             :active="route().current('products.index')"
                         >
-                            Product List
+                            Inventory List
                         </ResponsiveNavLink>
                         <ResponsiveNavLink
                             :href="route('products.create')"
                             :active="route().current('products.create')"
                         >
-                            Create Product
+                            Add Items
                         </ResponsiveNavLink>
                     </div>
 
@@ -173,7 +173,7 @@ const showingNavigationDropdown = ref(false);
 
                         <div class="mt-3 space-y-1">
                             <ResponsiveNavLink :href="route('profile.edit')">
-                                Profile
+                                Profiles
                             </ResponsiveNavLink>
                             <ResponsiveNavLink
                                 :href="route('logout')"
